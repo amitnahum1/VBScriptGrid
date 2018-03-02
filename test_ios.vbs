@@ -5,7 +5,7 @@ Set grid = CreateObject("Experitest.GridVBClient")
 
 grid.SetConnectionInfo "amit.nahum", "Aa123456", "Default", "sales.experitest.com", 443, true
 
-Set vbclient = grid.LockDeviceForExecution("iOS VB DEMO", "@os='ios', 10, 20000)
+Set vbclient = grid.LockDeviceForExecution("iOS VB DEMO", "@os='ios'", 10, 20000)
 
 vbclient.SetReporter2 "pdf", "C:\Users\amit.nahum\Downloads\Demo\vbscript\vbscriptGrid\reports", "VB iOS"
 
