@@ -1,3 +1,2 @@
-(
 START CScript "test_ios.vbs" 
-) | pause
+timeout 30
