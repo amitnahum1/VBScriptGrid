@@ -3,7 +3,7 @@ Dim oFS, d, dc, s, n
 Set filesys = CreateObject("Scripting.FileSystemObject")
 Set grid = CreateObject("Experitest.GridVBClient")
 
-grid.SetConnectionInfo "Demo", "Demo1234", "Default", "sales.experitest.com", 443, true
+grid.SetConnectionInfo "amit.nahum", "Aa123456", "Default", "sales.experitest.com", 443, true
 
 Set vbclient = grid.LockDeviceForExecution("iOS VB DEMO", WScript.Arguments(0), 10, 20000)
 
